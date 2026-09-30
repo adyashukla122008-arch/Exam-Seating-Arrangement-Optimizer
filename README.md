@@ -8,9 +8,9 @@ About the Project
 
 Managing examination seating arrangements manually can become difficult when there are multiple students and rooms.
 
-This project provides a basic solution by allowing the user to enter student details and room information and then generate a seating arrangement based on the available seating capacity.
+This project provides a basic way to manage the process using Python. Users can enter student roll numbers, set the number of rooms and seats available, and generate a seating arrangement based on the available capacity.
 
-The project is built using basic Python concepts that I have learned during my first semester.
+The project was created to practice basic Python programming concepts and apply them to a simple real-world problem.
 
 Features
 Student Data
@@ -69,6 +69,8 @@ User input and output
 
 Basic searching and indexing
 
+Basic arithmetic operations
+
 How the Program Works
 
 The program uses a menu-driven interface.
@@ -97,17 +99,20 @@ Check Seating Capacity
      v
 Generate Arrangement
      |
-     +----------+----------+
-     |                     |
-     v                     v
-View Arrangement     Search Student
+     +------------------+
+     |                  |
+     v                  v
+View Arrangement   Search Student
      |
      v
 Check Room Capacity
+     |
+     v
+    Exit
 
 Example
 
-Suppose there are:
+Suppose the room setup is:
 
 Number of Rooms: 2
 Seats Per Room: 5
@@ -125,9 +130,7 @@ Occupied Seats: 8
 Available Seats: 2
 
 
-The generated arrangement can then be viewed room by room.
-
-For example:
+A generated arrangement may look like:
 
 ========== SEATING ARRANGEMENT ==========
 
@@ -144,29 +147,24 @@ Seat 2 : 106
 Seat 3 : 108
 
 
-A student can also be searched using their roll number to find their room and seat.
+A student can also be searched using their roll number to find their assigned room and seat.
 
 How to Run
 Requirements
 
 Python 3.x
 
-Git
+A Python IDE or text editor
 
 Check your Python installation:
 
 python --version
 
-Clone the Repository
-git clone https://github.com/your-username/exam-seating-arrangement-optimizer.git
+Run the Project
 
+Download the project files and open the project folder.
 
-Navigate to the project directory:
-
-cd exam-seating-arrangement-optimizer
-
-
-Run the program:
+Run the Python file:
 
 python main.py
 
@@ -180,15 +178,19 @@ exam-seating-arrangement-optimizer/
 ├── README.md
 └── .gitignore
 
+Project Objective
+
+The main objective of this project is to use basic Python programming concepts to solve a simple problem related to examination seating arrangements.
+
+The project was developed as part of my first-semester learning to gain practical experience with Python and understand how programming can be applied to real-world problems.
+
 What I Learned
 
-I developed this project to improve my understanding of Python programming.
+While developing this project, I practiced:
 
-Through this project, I practiced:
+Working with Python lists
 
-Working with lists
-
-Using loops
+Using for and while loops
 
 Using conditional statements
 
@@ -202,27 +204,33 @@ Performing basic calculations
 
 Creating a menu-driven program
 
-Solving a simple real-world problem using programming
+Handling different program conditions
+
+Breaking a problem into smaller programming steps
 
 Limitations
 
-This is an initial version of the project, so it currently has some limitations:
+The current version of the project has some limitations:
 
-Student data is not permanently stored
+Student data is not permanently stored.
 
-Duplicate roll numbers are not checked
+Data is lost when the program is closed.
 
-The application runs only in the terminal
+Duplicate roll numbers are not currently checked.
 
-Input validation is limited
+Input validation is limited.
 
-Seating arrangements are not randomized
+Student names are not stored.
 
-There is no database integration
+Seating arrangements are not randomized.
+
+There is no database integration.
+
+The application currently runs through the terminal.
 
 Future Improvements
 
-As I continue learning Python and other technologies, I plan to improve this project by adding:
+As I continue learning Python and other technologies, I would like to improve this project by adding:
 
 Student names along with roll numbers
 
@@ -238,20 +246,24 @@ Database integration
 
 A graphical user interface
 
-Printable seating arrangement reports
+Printable seating arrangements
+
+Better error handling
 
 Project Status
 
-Current Status: Completed - Initial Version
+Status: Completed — Initial Version
 
-This project represents one of my early programming projects and is part of my learning journey as a first-semester college student.
+This is one of my early programming projects and is part of my learning journey as a first-semester college student.
 
-I plan to continue improving it as I learn more about Python, data structures, databases, and software development.
+I plan to improve the project as I learn more about Python, data structures, databases, and software development.
 
 Author
 
 [ADYA]
 
-First Semester College Student
+B.Tech in Computer Science and Engineering (AI & ML)
 
-This project was created for learning and educational purposes.
+School of Computing and Artificial Intelligence (SCAI)
+
+VIT Bhopal University
